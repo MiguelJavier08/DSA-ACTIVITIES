@@ -168,9 +168,9 @@ int main(){
     string END = deleteAtEnd(head);
     cout << END << endl;
     head = deleteFromBeginning(head);
-    head = deleteFromGivenNode("TAKE ALL THE LOVE by Tj Monterde", head);
+    head = deleteFromGivenNode("Sanctuary by Miguel Pogi", head);
     traverse(head);
 
 
     return 0;
-}    
+}  
