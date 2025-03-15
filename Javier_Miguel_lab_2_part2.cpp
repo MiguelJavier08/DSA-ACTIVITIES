@@ -156,19 +156,19 @@ int main(){
     head = insertAtBeginning("Gitara by Parokya Ni Edgar", head);
 
 
-    string result = insertAfter("Gusto by Zack Tabudlo", "Paninindigan kita", head);
+    string result = insertAfter("Sunday Morning by Miguel Pogi", "Paninindigan kita by Ben&Ben", head);
     cout << result << endl;
 
-    string result2 = insertAfter("Dilaw by Maki", "TAKE ALL THE LOVE", head);
+    string result2 = insertAfter("Cherry On Top by BINI", "Gitara by Parokya ni Edgar", head);
     cout << result2 << endl;
 
-    string result3 = insertAfter("Sining by Dionela", "Marilag", head);
+    string result3 = insertAfter("Blink Twice by BINI", "Marilag by Dionela", head);
     cout << result3 << endl;
 
     string END = deleteAtEnd(head);
     cout << END << endl;
     head = deleteFromBeginning(head);
-    head = deleteFromGivenNode("Blink Twice", head);
+    head = deleteFromGivenNode("TAKE ALL THE LOVE by Tj Monterde", head);
     traverse(head);
 
 
